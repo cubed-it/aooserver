@@ -43,7 +43,7 @@ platforms and publishes it to the GitHub Container Registry. The image name foll
 repository owner, i.e. `ghcr.io/<owner>/aooserver`:
 
 ```bash
-docker pull ghcr.io/essej/aooserver:latest
+docker pull ghcr.io/cubed-it/aooserver:latest
 ```
 
 Published platforms:
@@ -64,7 +64,7 @@ docker run -d \
   --restart unless-stopped \
   -p 10998:10998/tcp \
   -p 10998:10998/udp \
-  ghcr.io/essej/aooserver:latest
+  ghcr.io/cubed-it/aooserver:latest
 ```
 
 ### Optional parameters and operation
